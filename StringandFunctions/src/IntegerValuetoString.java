@@ -6,9 +6,10 @@ public class IntegerValuetoString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
          Scanner sc=new Scanner(System.in);
-         
+         System.out.print("Enter the Integer:");
+
             //Entering numerical value
-            float n=sc.nextFloat();
+            int n=sc.nextInt();
 
             //Converting to String(Two Ways
 
