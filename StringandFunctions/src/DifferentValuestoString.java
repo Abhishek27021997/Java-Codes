@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class DifferentValuestoString {
+public class IntegerValuetoString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,9 +9,11 @@ public class DifferentValuestoString {
          
             //Entering numerical value
             float n=sc.nextFloat();
-            
-            //Converting to String
-            String str=String.valueOf(n);
+
+            //Converting to String(Two Ways
+
+        //  String str=String.valueOf(n);                 //First Way
+            String str=Integer.toString(n);               //Second Way
             
             System.out.println(n+100);
             System.out.println(str+100);
