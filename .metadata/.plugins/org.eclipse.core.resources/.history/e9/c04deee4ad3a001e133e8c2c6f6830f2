@@ -1,0 +1,183 @@
+import java.util.*;
+
+
+                                // Program1:-ASSCI Java Program
+
+//public class Solution 
+//{  
+//public static void main(String[] String)   
+//  {  
+//int ch1 = 'A';  
+//int ch2 = 'b';  
+//System.out.println("The ASCII value of a is: "+ch1);  
+//System.out.println("The ASCII value of b is: "+ch2);  
+//  }  
+//}
+
+                              //Program2: One Dimensional Program 
+
+//public class Solution
+//{
+//	public static void main(String[] args) {
+//		
+//		Scanner sc=new Scanner(System.in);
+//		int n=sc.nextInt();
+//		
+//		int arr[]=new int[n];
+//		
+//		//Entering the Elements
+//		
+//		for(int i=0;i<n;i++) {
+//			arr[i]=sc.nextInt();
+//		}
+//		for(int i=0;i<n;i++) {
+//		System.out.println(arr[i]);
+//		}	
+//	}	
+//}
+
+                             //Program3:Two Dimensional Program
+
+//public class Solution
+//{
+//	public static void main(String[] args) {
+//		
+//		Scanner sc=new Scanner(System.in);
+//		int row=sc.nextInt();
+//		int column=sc.nextInt();
+//		
+//		int arr[][]=new int[row][column];
+//		
+//		System.out.println("Enter the Element:");
+//		for(int i=0;i<row;i++) {
+//			for(int j=0;j<column;j++) {
+//				arr[i][j]=sc.nextInt();
+//			}
+//		}
+//		System.out.println("All Element:");
+//		for(int i=0;i<row;i++) {
+//			for(int j=0;j<column;j++) {
+//				System.out.print(arr[i][j] + " ");
+//			}
+//			System.out.println();
+//		}	
+//	}
+//}
+
+                                       //Program4: Sub-String Program
+//public class Solution {
+//
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        String A=sc.nextLine();
+//        String B=sc.nextLine();
+//        
+//        int a=A.length();
+//        int b=B.length();
+//
+//        if(a>b) {
+//            System.out.println("Yes");
+//            }
+//        else {
+//            System.out.println("No");
+//        }
+//        
+//        String output1 = A.substring(0, 1).toUpperCase() + A.substring(1);
+//        String output2 = B.substring(0, 1).toUpperCase() + B.substring(1);
+//        System.out.println(output1 + " " + output2);
+//    }
+//}
+
+                                //Program5:  isAnagram(Matching 2 Strings char is same or not)
+
+
+//import java.io.*;
+//import java.util.*;
+//
+//public class Solution {
+//
+//   static boolean isAnagram(String AB, String BA) {
+//	   AB=AB.toLowerCase();
+//	   BA=BA.toLowerCase();
+//	  boolean f = false;
+//	  char[] c = AB.toCharArray();
+//	  Arrays.sort(c);
+//	  char[] d = BA.toCharArray();
+//	  Arrays.sort(d);
+//	  String a = new String (c);
+//      String b = new String (d);
+//      if (a.equals(b)) {
+//    	  f=true;
+//      }
+//      return f;
+//   
+//   }
+//    public static void main(String[] args) {
+//        
+//        Scanner sc=new Scanner(System.in);
+//        String A=sc.next();
+//        String B=sc.next();
+//        boolean ret=isAnagram(A,B);
+//
+//        System.out.println(ret);  
+//        
+//    }
+//}
+
+                                           //Program6: String Splitting
+
+//public class Solution {
+//
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//       
+//        if (!sc.hasNext()){
+//            System.out.println(0);
+//        }else {
+//             String input=sc.nextLine();
+//            String[]a = input.trim().split("[ !,?._'@]+");
+//            ArrayList<String>listOfStrings =new ArrayList<String>(Arrays.asList(a));
+//            System.out.println(listOfStrings.size());
+//      
+//          for(String str:listOfStrings){
+//            System.out.println(str);
+//          }    
+//        }  
+//    }
+//}
+
+                                    //Program7: String Splitting(through split())
+
+//public class Solution {
+//	 
+//    // Main driver method
+//    public static void main(String args[])
+//    {
+//        // Custom input string
+//        String str = "geekss@for@ge@ek@ss";
+//        String[] arrOfStr = str.split("@", 4);
+// 
+////        for (String a : arrOfStr)
+//            System.out.println(arrOfStr);
+//    }
+//}
+
+ public class Solution {
+	  
+	 public static void main(String args[]) {
+		
+		 Scanner scan=new Scanner(System.in);
+		 System.out.println("Enter the First Number:");
+		 int a=scan.nextInt();
+		 System.out.println("Enter the Second Number:");
+		 int b=scan.nextInt();
+		 
+		 System.out.println("Sum of numbers:");
+		 int c=a+b;
+		 
+		 
+	 }
+ }
+
+
+

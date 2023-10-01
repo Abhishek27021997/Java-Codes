@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;NumbertoString&apos; to &apos;DifferentValuestoString&apos;&#x0D;&#x0A;- Original project: &apos;NumtoString(ViceVersa)&apos;&#x0D;&#x0A;- Original element: &apos;NumbertoString&apos;&#x0D;&#x0A;- Renamed element: &apos;DifferentValuestoString&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NumbertoString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{NumbertoString.java[NumbertoString" matchStrategy="1" name="DifferentValuestoString" qualified="false" references="true" similarDeclarations="false" stamp="1692283262028" textual="false" version="1.0"/>
+</session>

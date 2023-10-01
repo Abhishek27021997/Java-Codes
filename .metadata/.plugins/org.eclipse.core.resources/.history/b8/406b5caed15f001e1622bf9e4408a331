@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Encapsulation {
+	 private String name;
+     
+	 //getting the data
+     public String getName() {
+  	   return name;
+     }
+     
+     //Initializing the data.
+     public void  setName(String name) {
+  	   this.name=name;
+     }
+     
+     
+     
+	public static void main(String[] args) {
+		
+      Encapsulation obj1=new Encapsulation(); 
+    	  
+      obj1.setName("LUND ENCAPSULATION PROGRAM");
+      System.out.println(obj1.getName());
+             
+	}
+
+}

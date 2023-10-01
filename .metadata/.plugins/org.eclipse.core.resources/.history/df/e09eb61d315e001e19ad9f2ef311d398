@@ -1,0 +1,119 @@
+
+import java.util.*;
+
+                                       //SINGLE INHERITANCE
+//class Shape {
+//	   public void display() {
+//	      System.out.println("Inside display");
+//	   }
+//	}
+//	class Rectangle extends Shape {
+//	   public void area() {
+//	      System.out.println("Inside area");
+//	   }
+//	}
+//	public class Inheritance{
+//	   public static void main(String[] arguments) {
+//	      Rectangle rect = new Rectangle();
+//	      rect.display();
+//	      rect.area();
+//	   }
+//	}
+
+class Shape {
+	   public void display() {
+	      System.out.println("Inside display");
+	   }
+	}
+	class Rectangle extends Shape {
+	   public void display() {
+	      System.out.println("Inside area");
+	   }
+	}
+	public class Inheritance{
+	   public static void main(String[] arguments) {
+	      Rectangle rect = new Rectangle();
+	      rect.display();
+	      Shape rect1=new Rectangle();
+	      rect1.display();
+	      
+	   }
+	}
+	
+
+                                     //MULTI-LEVEL INHERITANCE
+
+//	class parent{
+//		
+//		public void method1()
+//		{
+//			System.out.println("I am Parent");
+//		}
+//	}
+//	class child extends parent{
+//		
+//			public void method2()
+//			{
+//			System.out.println("I am child");
+//			
+//			}
+//		}
+//	
+//	class grandson extends child{
+//		
+//		public void method3()
+//		{
+//		System.out.println("I am grandson");
+//		
+//		}
+//	}
+//	
+//	public class Inheritance {
+//		
+//	public static void main(String[] args) {
+//		
+//     grandson obj1=new grandson();
+//     obj1.method3();
+//     obj1.method2();
+//     obj1.method1();
+//     
+//	}
+//}
+
+                                         //HYERICAL inheritance
+//class Shape {
+//public void display() {
+//   System.out.println("Inside display");
+//}
+//}
+//class Rectangle extends Shape {
+//public void area() {
+//   System.out.println("Inside area of rectangle");
+//}
+//}
+//
+//class Triangle extends Shape {
+//public void area() {
+//   System.out.println("Inside Parameter");
+//}
+//}
+//public class Inheritance{
+//public static void main(String[] arguments) {
+//   Triangle tri = new Triangle();
+//   tri.display();
+//   tri.area();
+//   
+//   Rectangle rec=new Rectangle();
+//   rec.area();
+//}
+//}
+
+
+
+
+
+
+
+
+
+
